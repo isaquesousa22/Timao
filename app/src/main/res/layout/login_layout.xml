@@ -20,11 +20,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15sp" />
+        android:layout_marginBottom="15sp"
+        android:hint="Insira o seu e-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:paddingLeft="8sp" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Insira sua senha"
+        android:inputType="numberPassword"
+        android:maxLength="12"
+        android:paddingLeft="8sp" />
 
     <Button
         android:layout_width="match_parent"
